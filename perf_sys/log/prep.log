@@ -1,0 +1,12 @@
+Qflow project preparation output log Thu Jul 15 19:54:04 2021
+
+--------------------------------
+Qflow project setup
+--------------------------------
+
+Technology set to osu018
+Regenerating files for existing project area_sys
+
+No actions specified on command line;
+creating qflow script file /home/marlon/Escritorio/Protecto_part2_micro/src/perf_sys/qflow_exec.sh only.
+Uncomment lines in this file and source the file to run the flow.

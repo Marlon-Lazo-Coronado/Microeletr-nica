@@ -1,0 +1,22 @@
+
+Qflow static timing analysis logfile appended on jue 15 jul 20:02:20 CST 2021
+Converting qrouter output to vesta delay format
+Running rc2dly -r area_sys.rc -l /usr/share/qflow/tech/osu018/osu018_stdcells.lib -d area_sys.dly
+Converting qrouter output to SPEF delay format
+Running rc2dly -D : -r area_sys.rc -l /usr/share/qflow/tech/osu018/osu018_stdcells.lib -d area_sys.spef
+Converting qrouter output to SDF delay format
+Running rc2dly -r area_sys.rc -l /usr/share/qflow/tech/osu018/osu018_stdcells.lib -d area_sys.sdf
+Running vesta static timing analysis with back-annotated extracted wire delays
+vesta -c -d area_sys.dly --long area_sys.rtlnopwr.v /usr/share/qflow/tech/osu018/osu018_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.3.17
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu018_stdcells"
+End of library at line 6141
+Parsing module "area_sys"
+Lib read /usr/share/qflow/tech/osu018/osu018_stdcells.lib:  Processed 6142 lines.
+ERROR: Net loop_limit_inst_compare_inst_number0_13_! not found in hash table
+Verilog netlist read:  Processed 1537 lines.
